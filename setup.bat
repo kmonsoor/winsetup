@@ -1,4 +1,7 @@
 echo 'Downloading chocolatey package manager'
+echo '======================================'
+echo 'presented by: Khaled Monsoor < k@kmonsoor.com >'
+echo 'Presented under the MIT License: (c) 2016'
 
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 
